@@ -1,0 +1,11 @@
+{
+  "name": "smithy-ts-async-iterable-repro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:MYoung25/smithy-ts-async-iterable-repro.git",
+  "author": "Michael Young <micyouna@amazon.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "smithy clean && smithy build && cd build/source/typescript-ssdk-codegen && yarn && yarn build"
+  }
+}
